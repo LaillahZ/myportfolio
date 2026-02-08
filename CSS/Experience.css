@@ -1,0 +1,106 @@
+ 
+body{
+    background-color:  black ;
+    background-attachment: scroll;
+    color:rgb(170, 214, 199) ;
+    p{
+        color:white;
+        text-align: center;
+        font-size:20px;
+        
+
+}
+
+ul,li{
+    color: white;
+    margin-left: 10%;
+    
+}
+
+div, a{
+    color: white;
+    text-decoration-style: dashed;
+    word-spacing: 120px;
+    text-align: center;
+    
+}}
+ol{
+    text-decoration: underline;
+    
+}
+
+@media (max-width: 768px){
+    div, a{
+        word-spacing: 24px;
+    }
+    body p{
+        font-size: 18px;
+        padding: 0 16px;
+    }
+    ul, li{
+        margin-left: 6%;
+    }
+}
+
+@media (max-width: 480px){
+    div, a{
+        word-spacing: 12px;
+    }
+    body p{
+        font-size: 16px;
+    }
+    ul, li{
+        margin-left: 4%;
+    }
+}
+footer{
+    background-color: #111;
+    padding: 40px 20px;
+    margin-top: 80px;
+    text-align: center;
+}
+
+footer .contact-row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 12px 0;
+    flex-wrap: wrap;
+}
+
+footer p{
+    color: rgb(170, 214, 199);
+    font-size: 18px;
+    margin: 0;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    word-spacing: normal;
+}
+
+footer a:hover{
+    color: rgb(127, 200, 255);
+    text-decoration: underline;
+}
+
+footer .icon{
+    display: flex;
+    align-items: center;
+}
+
+/* Responsive footer */
+@media (max-width: 768px){
+    footer .contact-row{
+        flex-direction: column;
+        gap: 6px;
+    }
+
+    footer p,
+    footer a{
+        font-size: 16px;
+    }
+}

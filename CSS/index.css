@@ -1,0 +1,160 @@
+
+body{
+    background-color:  black ;
+    background-attachment: scroll;
+    p{
+        color:white;
+        text-align: center;
+        font-size:20px;
+        
+  
+}
+
+scrollbar-3dlight-color: bisque;
+
+h2{ color: white;
+    text-align: center;
+}
+ h1{
+        color: rgb(170, 214, 199);
+        font-size: 50px;
+        text-align: left;
+        margin-top: 10%;
+        text-align: center;
+    }
+    b{
+        color: rgb(170, 214, 199);
+        font-size: 30px;
+    }
+}
+
+
+header{
+    h1{
+        color: rgb(183, 215, 204);
+        font-size: 50px;
+        text-align: left;
+        margin-top: 20%;
+        text-align: center;
+    
+        
+        
+    }
+    q{
+        color: rgb(170, 214, 199);
+        font-style: italic;
+        font-size: large;
+        text-align: center;
+        margin-left: 30%;
+    }
+}
+nav, a{
+    color: white;
+    
+    word-spacing: 120px;
+    text-align: center;
+    
+}
+
+@media (max-width: 768px){
+    div, a{
+        word-spacing: 24px;
+    }
+    header h1{
+        font-size: 36px;
+        margin-top: 12%;
+    }
+    header q{
+        margin-left: 0;
+        display: block;
+        text-align: center;
+        font-size: 16px;
+        padding: 0 16px;
+    }
+    body p{
+        font-size: 18px;
+        padding: 0 16px;
+    }
+}
+
+@media (max-width: 480px){
+    div, a{
+        word-spacing: 12px;
+    }
+    header h1{
+        font-size: 30px;
+        margin-top: 10%;
+    }
+    header q{
+        font-size: 15px;
+        padding: 0 12px;
+    }
+    body p{
+        font-size: 16px;
+    }
+}
+.icon{
+    width: 24px;
+    height: 24px;
+    
+}
+.icon svg{
+    width: 24px;
+    height: 24px;
+    fill: none;
+    stroke: rgb(127, 200, 255);
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+footer{
+    background-color: #111;
+    padding: 40px 20px;
+    margin-top: 80px;
+    text-align: center;
+}
+
+footer .contact-row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 12px 0;
+    flex-wrap: wrap;
+}
+
+footer p{
+    color: rgb(170, 214, 199);
+    font-size: 18px;
+    margin: 0;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    word-spacing: normal;
+}
+
+footer a:hover{
+    color: rgb(127, 200, 255);
+    text-decoration: underline;
+}
+
+footer .icon{
+    display: flex;
+    align-items: center;
+}
+
+/* Responsive footer */
+@media (max-width: 768px){
+    footer .contact-row{
+        flex-direction: column;
+        gap: 6px;
+    }
+
+    footer p,
+    footer a{
+        font-size: 16px;
+    }
+}

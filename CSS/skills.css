@@ -1,0 +1,90 @@
+div, a{
+    color: white;
+    text-decoration-style: dashed;
+    word-spacing: 120px;
+    text-align: center;
+    
+}
+body{
+    background-color: black;
+}
+ h1{
+        color: rgb(183, 215, 204);
+        font-size: 50px;
+        text-align: left;
+        margin-top: 20%;
+        text-align: center;
+        
+        
+    }
+
+@media (max-width: 768px){
+    div, a{
+        word-spacing: 24px;
+    }
+    h1{
+        font-size: 36px;
+        margin-top: 12%;
+    }
+}
+
+@media (max-width: 480px){
+    div, a{
+        word-spacing: 12px;
+    }
+    h1{
+        font-size: 30px;
+        margin-top: 10%;
+    }
+}
+footer{
+    background-color: #111;
+    padding: 40px 20px;
+    margin-top: 80px;
+    text-align: center;
+}
+
+footer .contact-row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 12px 0;
+    flex-wrap: wrap;
+}
+
+footer p{
+    color: rgb(170, 214, 199);
+    font-size: 18px;
+    margin: 0;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    word-spacing: normal;
+}
+
+footer a:hover{
+    color: rgb(127, 200, 255);
+    text-decoration: underline;
+}
+
+footer .icon{
+    display: flex;
+    align-items: center;
+}
+
+/* Responsive footer */
+@media (max-width: 768px){
+    footer .contact-row{
+        flex-direction: column;
+        gap: 6px;
+    }
+
+    footer p,
+    footer a{
+        font-size: 16px;
+    }
+}
