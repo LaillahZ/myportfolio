@@ -5,6 +5,15 @@ div, a{
     text-align: center;
     
 }
+header{
+    margin-top: 10%;
+    li{
+        color: white;
+    }
+    ul{
+        color: rgb(183, 215, 204);
+    }
+}
 body{
     background-color: black;
 }
@@ -12,7 +21,7 @@ body{
         color: rgb(183, 215, 204);
         font-size: 50px;
         text-align: left;
-        margin-top: 20%;
+        margin-top: 5%;
         text-align: center;
         
         
