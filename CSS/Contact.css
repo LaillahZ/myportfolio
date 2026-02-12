@@ -18,27 +18,16 @@ h1{
         text-align: left;
         margin-top: 10%;
         text-align: center;   
-        
 }
- q{
-    
-        color: rgb(170, 214, 199);
-        font-style: italic;
-        font-size: large;
-        text-align: center;
-        margin-left: 30%;
-    }
-    section{
-        a{
-            color: rgb(127, 200, 255);
-            text-decoration-line: underline;
-            text-decoration-style: none;
-        }
-        p{
-            color:white;
-        }
-    }
 
+p{
+       margin-left: 0;
+        display: block;
+        text-align: center;
+        font-size: 16px;
+        padding: 0 16px;
+        color: white;
+}
 .contact-row{
     display: flex;
     align-items: center;
@@ -70,7 +59,7 @@ h1{
         font-size: 36px;
         margin-top: 8%;
     }
-    q{
+    p{
         margin-left: 0;
         display: block;
         text-align: center;
@@ -116,10 +105,10 @@ h1{
     }
 }
 footer{
-    background-color: #111;
-    padding: 40px 20px;
+    background-color:rgb(41, 39, 39);
+    padding: 40px ;
     margin-top: 80px;
-    text-align: center;
+    
 }
 
 footer .contact-row{
@@ -135,6 +124,7 @@ footer p{
     color: rgb(170, 214, 199);
     font-size: 18px;
     margin: 0;
+    
 }
 
 footer a{
