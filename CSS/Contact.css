@@ -8,7 +8,7 @@ div,a{
 body{
     background-color: black;
     a{
-        text-decoration-line: none;
+        text-decoration-line: underline;
         word-spacing: 0;
     }
 }

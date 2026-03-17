@@ -53,10 +53,13 @@ nav, a{
     
     word-spacing: 120px;
     text-align: center;
-     text-decoration-style: dashed;
+     
 
     
     
+}
+progress{
+    color: white;
 }
 
 @media (max-width: 768px){
